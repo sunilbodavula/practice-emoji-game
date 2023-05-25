@@ -1,0 +1,110 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  height: 100vh;
+  text-align: center;
+  padding: 40px;
+}
+.heading {
+  color: #0f172a;
+  font-size: 28px;
+  font-family: 'Roboto';
+}
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+}
+.display-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  width: 450px;
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.d-card {
+  background-color: #ffffff;
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+}
+.display-time {
+  color: #00d9f5;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.display-status {
+  color: #0f172a;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  margin-top: 8px;
+}
+.controls-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 80px;
+}
+.pr-container {
+  display: flex;
+  align-items: center;
+}
+.play-pause-img {
+  height: 24px;
+  width: 24px;
+}
+.play-pause-text {
+  color: #0f172a;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  margin-left: 12px;
+}
+.reset-img {
+  height: 24px;
+  width: 24px;
+  margin-left: 30px;
+}
+.reset-text {
+  color: #0f172a;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  margin-left: 12px;
+}
+.set-timer-text {
+  color: #0f172a;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  margin-left: 12px;
+}
+.id-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.id-button {
+  background-color: transparent;
+  color: #0f172a;
+  font-size: 18px;
+  font-weight: 700;
+  border: 0px;
+}
+.id-para {
+  background-image: linear-gradient(to right, lightgreen, #00d9f5);
+  color: #0f172a;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  width: 80px;
+  height: 28px;
+  border-radius: 8px;
+  padding: 4px;
+}
